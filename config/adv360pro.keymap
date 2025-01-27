@@ -38,7 +38,7 @@
             bindings = <
 &trans  &trans         &trans    &trans         &trans        &trans        &trans                                                    &trans  &trans         &trans      &trans      &trans         &trans        &trans
 &trans  &kp LS(PLUS)   &kp SEMI  &kp LS(COLON)  &kp LS(EXCL)  &kp LS(AMPS)  &trans                                                    &trans  &kp LS(POUND)  &arrow      &notequal   &kp QUESTION   &kp LS(DLLR)  &trans
-&trans  &kp LS(STAR)   &kp LBKT  &kp LS(LBRC)   &kp LS(LPAR)  &kp EQUAL     &trans          &trans  &trans    &trans  &trans          &trans  &kp LS(CARET)  &kp LS(LT)  &kp LS(GT)  &kp LS(MINUS)  &trans        &trans
+&trans  &kp LS(STAR)   &kp LBKT  &kp LS(LBRC)   &kp LS(LPAR)  &kp EQUAL     &trans          &trans  &trans    &trans  &trans          &trans  &kp LS(CARET)  &kp LS(LT)  &kp LS(GT)  &kp MINUS      &trans        &trans
 &trans  &kp LS(PRCNT)  &kp RBKT  &kp LS(RBRC)   &kp LS(RPAR)  &kp LS(PIPE)                          &trans    &trans                          &kp SLASH      &kp GRAVE   &kp TILDE   &kp LS(UNDER)  &kp LS(AT)    &trans
 &trans  &trans         &trans    &trans         &trans                              &trans  &trans  &trans    &trans  &trans  &trans                         &trans      &trans      &trans         &trans        &trans
             >;
