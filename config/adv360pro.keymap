@@ -26,21 +26,21 @@
 
         default_layer {
             bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 2                                                                    &mo 4  &kp N6  &kp N7  &kp N8     &kp N9    &kp N0         &kp MINUS
-&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                                     &none  &kp Y   &kp U   &kp I      &kp O     &kp SEMICOLON  &kp BSLH
-&kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &none             &kp LCTRL  &kp LALT    &kp LGUI   &kp RCTRL             &none  &kp H   &kp J   &kp K      &kp L     &kp P          &kp SQT
-&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                                &kp HOME    &kp PG_UP                               &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH       &kp RSHFT
-&mo 3      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                  &kp BSPC  &kp DEL    &mo 1       &mo 1      &kp ENTER  &kp SPACE                 &kp UP  &kp DOWN   &kp LBKT  &kp RBKT       &mo 3
+&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 2                                                                    &mo 4  &kp N6  &kp N7  &kp N8     &kp N9   &kp N0    &kp MINUS
+&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                                     &none  &kp Y   &kp U   &kp I      &kp O    &none     &kp BSLH
+&kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &none             &kp LCTRL  &kp LALT    &kp LGUI   &kp RCTRL             &none  &kp H   &kp J   &kp K      &kp L    &kp P     &kp SQT
+&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                                &kp HOME    &kp PG_UP                               &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+&mo 3      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                  &kp BSPC  &kp DEL    &mo 1       &mo 1      &kp ENTER  &kp SPACE                 &kp UP  &kp DOWN   &none    &none     &mo 3
             >;
         };
 
         symbols {
             bindings = <
-&trans  &trans         &trans    &trans         &trans        &trans        &trans                                                    &trans  &trans         &trans      &trans         &trans         &trans        &trans
-&trans  &kp LS(PLUS)   &kp SEMI  &kp LS(COLON)  &kp LS(EXCL)  &kp LS(AMPS)  &trans                                                    &trans  &kp LS(POUND)  &arrow      &notequal      &kp MINUS      &kp LS(DLLR)  &trans
-&trans  &kp LS(STAR)   &kp LBKT  &kp LS(LBRC)   &kp LS(LPAR)  &kp EQUAL     &trans          &trans  &trans    &trans  &trans          &trans  &kp LS(CARET)  &kp LS(LT)  &kp LS(GT)     &kp LS(QMARK)  &trans        &trans
-&trans  &kp LS(PRCNT)  &kp RBKT  &kp LS(RBRC)   &kp LS(RPAR)  &kp LS(PIPE)                          &trans    &trans                          &kp BSLH       &kp GRAVE   &kp LS(TILDE)  &kp LS(UNDER)  &kp LS(AT)    &trans
-&trans  &trans         &trans    &trans         &trans                              &trans  &trans  &trans    &trans  &trans  &trans                         &trans      &trans         &trans         &trans        &trans
+&trans  &trans         &trans    &trans         &trans        &trans        &trans                                                    &trans  &trans         &trans      &trans      &trans         &trans        &trans
+&trans  &kp LS(PLUS)   &kp SEMI  &kp LS(COLON)  &kp LS(EXCL)  &kp LS(AMPS)  &trans                                                    &trans  &kp LS(POUND)  &arrow      &notequal   &kp QUESTION   &kp LS(DLLR)  &trans
+&trans  &kp LS(STAR)   &kp LBKT  &kp LS(LBRC)   &kp LS(LPAR)  &kp EQUAL     &trans          &trans  &trans    &trans  &trans          &trans  &kp LS(CARET)  &kp LS(LT)  &kp LS(GT)  &kp LS(MINUS)  &trans        &trans
+&trans  &kp LS(PRCNT)  &kp RBKT  &kp LS(RBRC)   &kp LS(RPAR)  &kp LS(PIPE)                          &trans    &trans                          &kp BSLH       &kp GRAVE   &kp TILDE   &kp LS(UNDER)  &kp LS(AT)    &trans
+&trans  &trans         &trans    &trans         &trans                              &trans  &trans  &trans    &trans  &trans  &trans                         &trans      &trans      &trans         &trans        &trans
             >;
         };
 
